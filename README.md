@@ -6,3 +6,9 @@ This is an algorithm question that tests whether the set of brackets are closed 
 
 ### Examples:
 - `()` - true
+- `()[]{}` - true
+- `(]` - false
+- `([)]` - false
+- `{[]}` - true
+- `((([[[{}]])))` - false
+- `((([[[{}]]])))` - true
